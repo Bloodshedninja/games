@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PIG GAME</title>
+    <link rel="stylesheet" href="Index_css.css" />
+  </head>
+  <body>
+    <section class="roll--dice">
+      <img src="dice1.png" class="dice hidden" />
+    </section>
+    <div class="score--cards">
+      <section class="player--0 active">
+        <h1>Player 1</h1>
+        <div class="score--box">
+          <p class="score--0">0</p>
+        </div>
+        <p class="current--0">0</p>
+      </section>
+      <section class="player--1">
+        <h1>Player 2</h1>
+        <div class="score--box">
+          <p class="score--1">0</p>
+        </div>
+        <p class="current--1">0</p>
+      </section>
+    </div>
+    <div class="actions">
+      <button class="btn roll">Roll Dice</button>
+      <button class="btn hold">Hold</button>
+      <button class="btn new--game">New Game</button>
+    </div>
+    <script src="pig_game.js"></script>
+  </body>
+</html>

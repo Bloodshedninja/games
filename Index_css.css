@@ -1,0 +1,124 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-image: radial-gradient(#3f5efb, #fc466b);
+}
+
+.roll--dice {
+  margin: 10px;
+  padding: 50px;
+  height: 100px;
+
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(to left, #4f6efb, #fc577b);
+  text-align: center;
+  opacity: 25;
+}
+
+.dice {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.score--cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+
+  border-radius: 25px;
+  margin: 10px;
+
+  background-image: linear-gradient(to left, #4f6efb, #fc577b);
+}
+
+.score--0,
+.score--1,
+.current--0,
+.current--1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  opacity: 0.8;
+}
+
+.player--0,
+.player--1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+  padding: 15px;
+  width: 40%;
+  height: 40vh;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.score--box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #3f5efb;
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: bold;
+  opacity: 0.8;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fc466b;
+  height: 70px;
+
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.active {
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.winner {
+  background-color: black;
+  opacity: 0.6;
+}
